@@ -37,7 +37,7 @@ public class UserModel {
     @Column(unique = true, nullable = false) //columna unica y nulla
     private Long id;
 
-    private String nombre;
+    private String name;
     private String email;
-    private Integer prioriodad;
+    private Integer priority;
 }
